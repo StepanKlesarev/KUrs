@@ -1,0 +1,41 @@
+﻿<Window x:Class="Тестирование.Test4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Тестирование"
+        mc:Ignorable="d"
+        Title="Test4" Height="700" Width="900">
+    <Grid>
+        <Label  FontSize="30" Margin="165,10,165,605">
+            <TextBlock Text="Тестирование по языку Golang" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <Label FontSize="15" Margin="0,372,526,242">
+            <TextBlock Text="Два основных типа данных в Си" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <Label FontSize="15" Margin="10,115,426,498">
+            <TextBlock Text="Когда появился язык Си?" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <TextBox x:Name="Ot1" Margin="495,84,16,533"></TextBox>
+        <Label FontSize="15" Margin="10,186,426,433">
+            <TextBlock Text="Когда появился язык Си?" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <TextBox x:Name="Ot2" Margin="495,186,16,433"></TextBox>
+        <Label FontSize="15" Margin="0,283,450,341">
+            <TextBlock Text="Когда появился язык Си?" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <TextBox x:Name="Ot3" Margin="501,283,10,342"></TextBox>
+        <Label FontSize="15" Margin="0,372,526,242">
+            <TextBlock Text="Два основных типа данных в Си" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <TextBox x:Name="Ot4" Margin="495,372,16,242"></TextBox>
+        <Label x:Name="tt"  FontSize="15" Margin="0,471,549,150">
+            <TextBlock Text="Для обозначения какой арифметической операции используется знак %" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <TextBox x:Name="Ot5" Margin="556,471,16,163"></TextBox>
+        <Button Content="Результат" Margin="478,589,144,20" Click="Button_Click"></Button>
+        <Button Content="Назад" Margin="73,589,549,20" Click="Button_Click_1"/>
+    </Grid>
+</Window>
+
+

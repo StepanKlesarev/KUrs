@@ -1,0 +1,16 @@
+﻿<Window x:Class="Тестирование.Autr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Тестирование"
+        mc:Ignorable="d"
+        Title="Autr" Height="450" Width="300">
+    <Grid>
+        <TextBox Name="L" Margin="86,72,86,289"></TextBox>
+        <PasswordBox Name="P" Margin="86,171,86,201"></PasswordBox>
+        <Button Content="Войти" Margin="69,250,69,133" Click="Button_Click_1"></Button>
+        <Label Content="Логин" Margin="11,72,219,289"/>
+        <Label Content="Пароль" Margin="11,171,219,201"/>
+    </Grid>
+</Window>

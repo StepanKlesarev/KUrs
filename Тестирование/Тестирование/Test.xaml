@@ -1,0 +1,16 @@
+﻿<Window x:Class="Тестирование.Test"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Тестирование"
+        mc:Ignorable="d"
+        Title="Test" Height="450" Width="800">
+    <Grid>
+        <Button Content="Тест 4" Margin="274,319,364,60" Click="Button_Click_3"></Button>
+        <Button Content="Тест 1" Margin="274,86,364,292" Click="Button_Click"/>
+        <Button Content="Тест 3" Margin="274,240,364,139" Click="Button_Click_2"/>
+        <Button Content="Тест 2" Margin="274,162,364,217" Click="Button_Click_1"/>
+        <Label Content="Выберите тест"  VerticalAlignment="Top" Margin="274,26,364,0" Height="50"></Label>
+    </Grid>
+</Window>

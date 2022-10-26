@@ -1,0 +1,26 @@
+﻿<Window x:Class="Тестирование.Test3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Тестирование"
+        mc:Ignorable="d"
+        Title="Test3" Height="700" Width="850">
+    <Grid>
+        <Label Content="Тестирование по языку С++" FontSize="30" Margin="165,10,165,574"></Label>
+
+        <Label Content="Допускается ли перегрузка деструкторов?" FontSize="15" Margin="10,140,426,498"/>
+        <TextBox x:Name="Ot1" Margin="495,140,16,498"></TextBox>
+
+        <Label Content="Можно ли перегружать операции для встроенных типов данных?" FontSize="15" Margin="10,212,426,401"/>
+        <TextBox x:Name="Ot2" Margin="495,208,16,413"></TextBox>
+        <Label Content="Каков размер «пустого» объекта?" FontSize="15" Margin="0,310,557,309"/>
+        <TextBox x:Name="Ot3" Margin="501,310,10,309"></TextBox>
+        <Label Content="Сколько аргументов можно передать в функцию?" FontSize="15" Margin="0,412,459,212"/>
+        <TextBox x:Name="Ot4" Margin="495,400,16,212"></TextBox>
+        <Label Content="Каким будет x                                                    int x = 2+7;" FontSize="15" Margin="0,492,459,129"/>
+        <TextBox x:Name="Ot5" Margin="495,492,16,129"></TextBox>
+        <Button Content="Результат" Margin="501,589,121,20" Click="Button_Click"></Button>
+        <Button Content="Назад" Margin="73,589,549,20" Click="Button_Click_1"/>
+    </Grid>
+</Window>
